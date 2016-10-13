@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+      	<!-- Meta tags here -->
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+      	<meta name="viewport" content="width=device-width, user-scalable=false;">
+		<title>
+			Naman Maheshwari
+		</title>
+
+	    <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+	    <link href='css/bootstrap-theme.min.css' rel='stylesheet' type='text/css'>
+	    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href="css/namanmain.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/instafeed.min.js"></script>
+		<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript" src="js/typer.js"></script>
+
+	</head>
+	<body class="hom" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<div class="container-fluid">
+	<!-- Navbar starts here -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#important-id-for-collapsing" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" style="font-family: 'Lobster', cursive">Naman Maheshwari</a>
+        </div>
+        <div class="collapse navbar-collapse" id="important-id-for-collapsing">
+            <ul class="nav navbar-nav navbar-right">
+            	<li><a href="#home" style="font-family: 'Oswald', sans-serif">Home</a></li>
+                <li><a href="#Work" style="font-family: 'Oswald', sans-serif">Work</a></li>
+                <li><a href="#photography" style="font-family: 'Oswald', sans-serif">Photography</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>	
+
+
+
+<!-- Home section starts here -->
+<section id="home">
+	<div class="container first" >
+		<div class="jumbotron jumb" style="text-align: center">
+			<img src="assets/naman.jpg" class="thumb">
+
+			<br />
+			<span ng-app="myApp"><h1 style="font-family: 'Oswald', sans-serif;">A <typer words="['Student', 'Programmer', 'Designer', 'Geek(?!)']" type-time='150' backspace-time='200' start-delay='1500' highlight-background='#2980b9'></typer></h1></span>
+			<br />
+    <p>Seeking enlightenment in the practical uses of Computer Science & Engineering.</p> 
+  		</div>
+	</div>
+	</section>
+	<!-- Work section starts here -->
+	<section id="Work">
+		<div class="jumbotron werk" class="work_section">
+			<div class="row">
+				<div class="container">
+			<div class="col-sm-4 col-md-4">
+			    <div class="thumbnail">
+			      <img src="assets/nexttech.png" alt="nexttechlab">
+			      <div class="caption center_align">
+			        <h3>Human-Computer Interaction Researcher at Next Tech Lab</h3>
+			      </div>
+			    </div>
+			  </div>
+				<div class="container">
+			  <div class="col-sm-4 col-md-4">
+			    <div class="thumbnail">
+			      <img src="assets/internshala.png" alt="internshala">
+			      <div class="caption center_align" />
+			        <h3>Student Partner at Internshala</h3>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-4 col-md-4">
+			    <div class="thumbnail">
+			      <img src="assets/wrapup.jpg" alt="wrapup">
+			      <div class="caption center_align">
+			        <h3>Digital Marketing Intern at WrapUp News<p></p></h3>
+			      </div>
+			    </div>
+			  </div>
+			  </div>
+			</div>
+  		</div>
+	</section>
+
+	<!-- Photography starts here -->
+	<section id="photography">
+	<div class="container">
+	<div class="jumbotron photog">
+			<div id="instafeed" class="center_align">
+                    <script type="text/javascript">
+   						var userFeed = new Instafeed({
+						  get: 'user',
+						  userId: '1528152082',
+						  accessToken: '1528152082.1677ed0.6afc33f1a7b24edfb69dbba21ecaec19',
+						  resolution: 'thumbnail',
+						  limit: 12,
+						  links: false,
+						  })
+
+						userFeed.run();
+					</script>
+			</div>
+	</div>
+	</div>
+
+	</section>
+
+	<!-- Contact starts here -->
+
+		<nav class="navbar navbar-default navbar-bottom">
+  			<div class="container">
+	        	 <ul class="nav navbar-center center_align" style="padding-top: 10px; margin-bottom: 0px">
+						<a href="https://www.instagram.com/namanski/" title="Instagram" target="_blank"><img src="assets/instagram.png" alt="Instagram" class="contact_logo" /></a>
+						<a href="https://github.com/namanmaheshwari97" title="Github" target="_blank"><img src="assets/github.png" class="contact_logo" /></a>
+						<a href="https://in.linkedin.com/in/namanm17" title="LinkedIn" target="_blank"><img src="assets/linkedin.png" class="contact_logo" /></a>
+	            </ul>
+        </div>
+	</nav>
+	</div>
+	<!-- Scripts start here -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+
+    <script>
+    	var app = angular.module("myApp", ['typer']);
+    </script>
+
+
+ </body>
+</html>
