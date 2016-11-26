@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mediscanwrap {	
-	background: url(../img/work.jpg) no-repeat center top;
+	background: url(../img/projects/mediscan/mediscanbg.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
@@ -187,7 +187,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	letter-spacing: 4px;
-	font-size: 80px;
+	font-size: 60px;
 	font-weight: bold;
 }
 
