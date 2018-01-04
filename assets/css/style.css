@@ -208,6 +208,42 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+#ms3wrap {	
+	background: url(../img/projects/ms3/ms3_bg.png) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#ms3wrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+#ms3wrap h4 {
+	font-weight: 400;
+	color: #ffffff
+}
+
+
 #pehechanosmartwrap {	
 	background: url(../img/projects/pehechanoSMART/pehechanosmart-ui.png) no-repeat center top;
 	margin-top: -70px;
